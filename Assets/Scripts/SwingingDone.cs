@@ -11,7 +11,7 @@ public class SwingingDone : MonoBehaviour
     public PlayerMovementAdvanced pm;
 
     [Header("Swinging")]
-    private float maxSwingDistance = 25f;
+    public float maxSwingDistance = 10f;
     private Vector3 swingPoint;
     private SpringJoint joint;
 

@@ -43,34 +43,41 @@ public class TempO2 : MonoBehaviour
         }
     }
 
-    public void OnTriggerEnter(Collider other)
+    public void OnCollisionEnter(Collision other)
     {
-        if (other.CompareTag("temp")) 
+        if (other.collider.CompareTag("temp")) 
         { 
           v = true;
         }
+       
+    }
+    public void OnCollisionExit(Collision other)
+    {
+
+        if (other.collider.CompareTag("temp"))
+        {
+            v = false;
+        }
+       
+    }
+    private void OnTriggerEnter(Collider other)
+    {
         if (other.CompareTag("O2"))
         {
             o = true;
         }
         if (other.CompareTag("health"))
         {
-            Hp.value += 20f ;
+            Hp.value += 20f;
             Destroy(other.gameObject);
         }
     }
-    public void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)
     {
-
-        if (other.CompareTag("temp"))
-        {
-            v = false;
-        }
         if (other.CompareTag("O2"))
         {
             o = false;
         }
     }
-    
-    
+
 }
