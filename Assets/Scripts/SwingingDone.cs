@@ -96,7 +96,7 @@ public class SwingingDone : MonoBehaviour
         // deactivate active grapple
         if(GetComponent<Grappling>() != null)
             GetComponent<Grappling>().StopGrapple();
-        pm.ResetJump();
+       // pm.ResetJump();
 
         pm.swinging = true;
 
