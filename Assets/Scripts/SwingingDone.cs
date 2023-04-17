@@ -88,7 +88,7 @@ public class SwingingDone : MonoBehaviour
     }
 
 
-    private void StartSwing()
+    public void StartSwing()
     {
         // return if predictionHit not found
         if (predictionHit.point == Vector3.zero) return;

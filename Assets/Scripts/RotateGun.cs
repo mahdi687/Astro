@@ -3,20 +3,21 @@ using UnityEngine;
 public class RotateGun : MonoBehaviour
 {
 
-    public Grappling grappling;
+    public PlayerMovementAdvanced pm;
+    public SwingingDone grappling; 
 
     private Quaternion desiredRotation;
     private float rotationSpeed = 5f;
 
     void Update()
     {
-        if (!grappling.IsGrappling())
+        if (!pm.swinging)
         {
             desiredRotation = transform.parent.rotation;
         }
         else
         {
-            desiredRotation = Quaternion.LookRotation(grappling.GetGrapplePoint() - transform.position);
+            desiredRotation = Quaternion.LookRotation(grappling.predictionPoint.position - transform.position);
         }
 
         transform.rotation = Quaternion.Lerp(transform.rotation, desiredRotation, Time.deltaTime * rotationSpeed);

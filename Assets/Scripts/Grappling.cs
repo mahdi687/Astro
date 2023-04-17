@@ -9,7 +9,7 @@ public class Grappling : MonoBehaviour
     public Transform gunTip, camera, player;
     private float maxDistance = 100f;
     private SpringJoint joint;
-    private PlayerMovementAdvanced pm;
+    public PlayerMovementAdvanced pm;
 
     void Awake()
     {
@@ -21,10 +21,12 @@ public class Grappling : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             StartGrapple();
+           
         }
         else if (Input.GetMouseButtonUp(0))
         {
             StopGrapple();
+            
         }
     }
 
@@ -39,10 +41,11 @@ public class Grappling : MonoBehaviour
     /// </summary>
     void StartGrapple()
     {
-        //pm.swinging = true;
+        
         RaycastHit hit;
         if (Physics.Raycast(camera.position, camera.forward, out hit, maxDistance, whatIsGrappleable))
         {
+            pm.swinging = true;
             grapplePoint = hit.point;
             joint = player.gameObject.AddComponent<SpringJoint>();
             joint.autoConfigureConnectedAnchor = false;
@@ -70,7 +73,7 @@ public class Grappling : MonoBehaviour
     /// </summary>
     public void StopGrapple()
     {
-       // pm.swinging = false;
+        pm.swinging = false;
         lr.positionCount = 0;
         Destroy(joint);
     }
@@ -90,11 +93,13 @@ public class Grappling : MonoBehaviour
 
     public bool IsGrappling()
     {
+        
         return joint != null;
     }
 
     public Vector3 GetGrapplePoint()
     {
+        
         return grapplePoint;
     }
 }
