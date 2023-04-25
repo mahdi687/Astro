@@ -11,6 +11,7 @@ TagManager:
   - Wall
   - Grap
   - Metal
+  - portal
   layers:
   - Default
   - TransparentFX
