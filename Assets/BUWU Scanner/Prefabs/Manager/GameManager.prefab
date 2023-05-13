@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5699084885248344719}
   - component: {fileID: 5699084885248344718}
   - component: {fileID: 589800009}
+  - component: {fileID: 1569164568353689475}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -182,3 +183,19 @@ MonoBehaviour:
         color: {r: 0.59464705, g: 0.59464705, b: 0.59464705, a: 0}
         range: 0
   vfx: {fileID: 8926484042661614526, guid: 75cb81b14f51d2b49a07bbd3e661aa42, type: 3}
+--- !u!114 &1569164568353689475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5699084885248344717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2505fcbc3f1b7a44a4a43dc277d42ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Grapple: {fileID: 0}
+  scan: {fileID: 0}
+  Scanner: 0
+  grappler: 1

@@ -51,12 +51,15 @@ namespace LidarProject
 
         void LateUpdate()
         {
-            if (currentVFX.aliveParticleCount >= 1000000)
-                CreateNewVFX();
-            else if (positionList.Count > 0)
-                SetParticle();
+            
 
-            if (scanUseFade) currentVFX.SetVector3("PlayerPos", GameManager.instance.Player.transform.position);
+                if (currentVFX.aliveParticleCount >= 1000000)
+                    CreateNewVFX();
+                else if (positionList.Count > 0)
+                    SetParticle();
+
+                if (scanUseFade) currentVFX.SetVector3("PlayerPos", GameManager.instance.Player.transform.position);
+            
         }
 
         public void SwitchPalette() // Switch the color palette
