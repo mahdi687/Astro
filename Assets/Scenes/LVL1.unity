@@ -15094,7 +15094,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -15568,7 +15568,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -17278,7 +17278,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -33301,15 +33301,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   v: 0
-  temp: {fileID: 0}
+  temp: {fileID: 1804594160}
   valtemp: 0
   valO2: 0
   deg: 0.1
-  O2: {fileID: 0}
+  O2: {fileID: 1002257}
   o: 0
-  Hp: {fileID: 0}
-  temptxt: {fileID: 0}
-  O2txt: {fileID: 0}
+  Hp: {fileID: 1074669491}
+  temptxt: {fileID: 1600611442}
+  O2txt: {fileID: 1176938753}
 --- !u!114 &1623225833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37039,7 +37039,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1777167569
 MonoBehaviour:
   m_ObjectHideFlags: 0
