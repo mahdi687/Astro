@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TempO2 : MonoBehaviour
 {
@@ -55,6 +56,11 @@ public class TempO2 : MonoBehaviour
         if (( temp.value == temp.maxValue ) || ( O2.value == O2.minValue )) 
         {
             Hp.value -= 0.1f; 
+        }
+
+        if (Hp.value ==0 ) 
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex );
         }
     }
 
