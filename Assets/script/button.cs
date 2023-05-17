@@ -7,8 +7,8 @@ public class button : MonoBehaviour
 {
  public void next()
     {
-        SceneManager.LoadScene("level");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-     
+
 }
 

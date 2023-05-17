@@ -13,6 +13,15 @@ TagManager:
   - Metal
   - portal
   - Red
+  - Climb
+  - Scan
+  - Jump
+  - WAll
+  - Slide
+  - Grapple
+  - Hot
+  - Oxy
+  - Health
   layers:
   - Default
   - TransparentFX

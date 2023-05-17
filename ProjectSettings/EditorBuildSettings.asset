@@ -6,12 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
     path: Assets/Scenes/FirstCutScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/TUTO.unity
     guid: 981c0833db4a718448fadb9a604bcd92
   - enabled: 1
-    path: Assets/Scenes/levelSelect.unity
-    guid: 82be41cda3cd9cf43b817c4c81719430
+    path: Assets/Scenes/LANDING 1.unity
+    guid: b78528a808869524bb653d6e7f346c0c
+  - enabled: 1
+    path: Assets/Scenes/LVL1.unity
+    guid: ca6884dee099fc74db2306309ea0c043
+  - enabled: 1
+    path: Assets/Scenes/LANDING 2.unity
+    guid: 6110445e0969b504083a93fa83bc8c01
+  - enabled: 1
+    path: Assets/Scenes/LVL2.unity
+    guid: bdb26668bb54ec448837222da0278939
+  - enabled: 1
+    path: Assets/Scenes/END GAME.unity
+    guid: 60fb5b1ff0504a242a9fac22b439e700
   m_configObjects: {}

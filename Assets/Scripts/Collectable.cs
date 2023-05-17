@@ -6,18 +6,17 @@ using UnityEngine.UI;
 public class Collectable : MonoBehaviour
 {
 
-    
     public GameObject TEXT;
 
     void Update()
     {
         Vector3 fwd = transform.TransformDirection(Vector3.forward);
 
-        if (Physics.Raycast(transform.position, fwd, 4f))
+        if (Physics.Raycast(transform.position, fwd, 15f))
         {
-
+            Debug.Log("wow");
             print("hit!!");
-            if (Input.GetKeyDown(KeyCode.Mouse0) && FindAnyObjectByType<GunSwitcher>().ISscanning)
+            if (Input.GetKeyDown(KeyCode.Mouse0) )
             {
 
                 StartCoroutine(delay());
@@ -30,6 +29,7 @@ public class Collectable : MonoBehaviour
 
             TEXT.SetActive(false);
         }
+        
 
 
     }
@@ -38,5 +38,6 @@ public class Collectable : MonoBehaviour
         yield return new WaitForSeconds(.5f);
         TEXT.SetActive(true);
     }
+    
 
 }
