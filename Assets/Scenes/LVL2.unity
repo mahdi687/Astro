@@ -22983,8 +22983,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.96898, y: -97.58341}
-  m_SizeDelta: {x: 320.2581, y: 197.4195}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 331.1, y: 197.4195}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435771711
 MonoBehaviour:
@@ -22999,7 +22999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.40943396, g: 0.5973505, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -23019,10 +23019,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.02
-  m_Text: 'this plant is for jqsjbqdlaz
-
-    zertyuvlidhvxlccv  lkhsf   llh lk lkj
-    lkhfqsjf l flqhfq  lqfkshqsf lkjqsf lkhqsf lkhqsflkjqs'
+  m_Text: we've discovered an abundance of elements and substances that hold tremendous
+    value and potential for human use.
 --- !u!222 &435771712
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24639,8 +24637,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.96898, y: -97.58341}
-  m_SizeDelta: {x: 320.2581, y: 197.4195}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 320.2581, y: 178.6073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &490878729
 MonoBehaviour:
@@ -24655,7 +24653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.40943396, g: 0.5973505, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -24675,10 +24673,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.02
-  m_Text: 'this plant is for jqsjbqdlaz
-
-    zertyuvlidhvxlccv  lkhsf   llh lk lkj
-    lkhfqsjf l flqhfq  lqfkshqsf lkjqsf lkhqsf lkhqsflkjqs'
+  m_Text: "we have uncovered a treasure unlike any other \u2013 precious crystals
+    of extraordinary beauty and rarity."
 --- !u!222 &490878730
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27418,7 +27414,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &588745870
 Transform:
   m_ObjectHideFlags: 0
@@ -34435,7 +34431,7 @@ MonoBehaviour:
   crystalOne: 0
   powerCellOne: 0
   boneOne: 1
-  beaconOne: 0
+  beaconOne: 1
   waterOne: 0
   plant1: {fileID: 1780888843}
   plant2: {fileID: 1768322694}
@@ -35366,7 +35362,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.96898, y: -97.58341}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 320.2581, y: 197.4195}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &857280815
@@ -35382,7 +35378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.40943396, g: 0.5973505, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -35391,21 +35387,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e25b16f06a6ff6144b082e8b43592d6b, type: 3}
-    m_FontSize: 25
+    m_FontSize: 0
     m_FontStyle: 1
     m_BestFit: 1
-    m_MinSize: 24
+    m_MinSize: 0
     m_MaxSize: 260
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.02
-  m_Text: 'this plant is for jqsjbqdlaz
-
-    zertyuvlidhvxlccv  lkhsf   llh lk lkj
-    lkhfqsjf l flqhfq  lqfkshqsf lkjqsf lkhqsf lkhqsflkjqs'
+  m_Text: Scattered among the rugged terrain of this planet, you may come across
+    old neon gloves, remnants of a bygone era that spark curiosity and intrigue.
 --- !u!222 &857280816
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37561,7 +37555,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh411448
+  m_Name: pb_Mesh348118
   serializedVersion: 10
   m_SubMeshes: []
   m_Shapes:
@@ -43532,6 +43526,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 88c963068e43ef842a7a282d3f961cf8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88c963068e43ef842a7a282d3f961cf8, type: 3}
@@ -71331,7 +71330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.25490198, g: 0.40000004, b: 0.5882353, a: 0.5058824}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -73578,7 +73577,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: -Follow the bubbles to find items to scan
+  m_text: -Follow the WaterFall to find items to scan
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -76683,7 +76682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.25490198, g: 0.40000004, b: 0.5882353, a: 0.5058824}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -76925,7 +76924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.25490198, g: 0.40000004, b: 0.5882353, a: 0.5058824}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -77338,7 +77337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 16}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1780888845
@@ -77354,7 +77353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.25490198, g: 0.40000004, b: 0.5882353, a: 0.5058824}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -77720,7 +77719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.40943396, g: 0.5973505, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -77729,10 +77728,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e25b16f06a6ff6144b082e8b43592d6b, type: 3}
-    m_FontSize: 25
+    m_FontSize: 0
     m_FontStyle: 1
     m_BestFit: 1
-    m_MinSize: 24
+    m_MinSize: 0
     m_MaxSize: 260
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -77740,10 +77739,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.02
-  m_Text: 'this plant is for jqsjbqdlaz
-
-    zertyuvlidhvxlccv  lkhsf   llh lk lkj
-    lkhfqsjf l flqhfq  lqfkshqsf lkjqsf lkhqsf lkhqsflkjqs'
+  m_Text: Watchful eyes have spotted a peculiar tree branch, nestled within the verdant
+    forests of this world, and its potential usefulness cannot be understated.
 --- !u!222 &1793730389
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -77769,7 +77766,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.96898, y: -97.58341}
+  m_AnchoredPosition: {x: 0, y: -25}
   m_SizeDelta: {x: 320.2581, y: 197.4195}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1796564052
@@ -80141,7 +80138,7 @@ RectTransform:
   m_GameObject: {fileID: 1868895119}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5.3533096, y: 5.3533096, z: 5.3533096}
+  m_LocalScale: {x: 2.8456588, y: 2.8456588, z: 2.8456588}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1617677724}
@@ -80149,8 +80146,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.96898, y: -97.58341}
-  m_SizeDelta: {x: 320.2581, y: 197.4195}
+  m_AnchoredPosition: {x: 0.0000000031432137, y: -0.0000038146973}
+  m_SizeDelta: {x: 674.71, y: 398.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1868895121
 MonoBehaviour:
@@ -80174,21 +80171,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e25b16f06a6ff6144b082e8b43592d6b, type: 3}
-    m_FontSize: 25
+    m_FontSize: 37
     m_FontStyle: 1
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 24
     m_MaxSize: 260
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.02
-  m_Text: 'this plant is for jqsjbqdlaz
-
-    zertyuvlidhvxlccv  lkhsf   llh lk lkj
-    lkhfqsjf l flqhfq  lqfkshqsf lkjqsf lkhqsf lkhqsflkjqs'
+  m_Text: Attention, Astronaut. Exciting news! Analysis of the planet's water samples
+    reveals promising results . The water on this planet is of excellent quality
+    and is safe for human consumption.
 --- !u!222 &1868895122
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -89466,7 +89462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.25490198, g: 0.40000004, b: 0.5882353, a: 0.5058824}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5058824}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

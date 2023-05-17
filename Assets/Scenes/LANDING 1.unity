@@ -14663,16 +14663,17 @@ RectTransform:
   m_GameObject: {fileID: 828434873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.7003478, y: 1.7003478, z: 1.7003478}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1852856613}
   m_Father: {fileID: 1320705742}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -7.1174}
-  m_SizeDelta: {x: 654.0804, y: 381.77}
+  m_AnchoredPosition: {x: -25, y: -52}
+  m_SizeDelta: {x: 256.4002, y: 171.9946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &828434875
 CanvasGroup:
@@ -14713,13 +14714,16 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "this planet contains ^qsjdmlqsjdmqsljdqsmldjqslmjdqslmjdlqsjdqsdqsdqsdqsdqsdqsdqsdqsdfsfkjsdgfkjsdbfsdf\nsdfmsdhfslkdfhsdf\nsdflksddflkshflksdhfsd\nfsldfhsdlkfhsdf\nsdlfksdhflksdhflksdhfksdhfsd\nfslkdkhflskdfhsdf\ndqslkdh\n\ndlsfkhsdf\nsdlfksddf\nslkfhlskdhflkshfsd\nfslkfhsldkdfhsdf\nslkddhflksddhflskdhfsd\nflskddhflskddhfsldkhflsdf\nlkskdhdflkh$$\xF9\xF9\nlshdf\nlkshdflkhsddf\nlkshdflkhsdf\ndqskdjqsdd\nqmslldj\nqsslddkhqsmkdhqsldqsdqs\n"
+  m_Text: "Class : \tSuper-Terre\nDiscovery_Date :  2012\r\nDistance  : 42Light-year\r\nDiameter 
+    : 15\u202F227 km \nMass : 7.1 MO\r\nOrbital period 197.8 Days \nRotation period
+    197.8 \r\nSolar day 42Light-year\nAge : 6.000-10\u2079 years\r\nGravity :  13,93
+    m/s\xB2\nAtmo pressure 655 atm\r\nTemperature :  277.6 \xB0C\r"
 --- !u!222 &828434877
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34450,6 +34454,86 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 956700650}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1852856612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1852856613}
+  - component: {fileID: 1852856615}
+  - component: {fileID: 1852856614}
+  m_Layer: 0
+  m_Name: 'Planet Name '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1852856613
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852856612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 828434874}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2.2, y: 115.6}
+  m_SizeDelta: {x: 344.2728, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1852856614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852856612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7647059, g: 0.58878946, b: 0.05098039, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 8f619f1e760d4494ba4c5292394227c4, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Planet : HD 40307 g'
+--- !u!222 &1852856615
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852856612}
+  m_CullTransparentMesh: 1
 --- !u!4 &1856254165 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 82c7db2f2f66cea4d8955ed98ff2deab,
